@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="menu.css">
+        <link rel="stylesheet" href="scroll.css">
+        <link rel="stylesheet" href="schedule.css">
+        <link rel="stylesheet" href="history.css">
+        <link rel="stylesheet" href="contact.css">
+        <title>About me</title>
+    </head>
+    <body>
+        <div id="container">
+            <header id = "header"> 
+                <nav id="menu" class ="menu">
+                    <ul>
+                        <li><a href = "#1st" class="opacity"><b>Main</b></a></li>
+                        <li><a href = "#2nd" class="opacity"><b>About me</b></a></li>
+                        <li><a href = "#3th" class="opacity"><b>History</b></a></li>
+                        <li><a href = "#4th" class="opacity"><b>Contact</b></a></li>
+                        <li><a href = "#5th" class="opacity"><b>Schedule</b></a></li>
+                    </ul>
+                </nav>
+            </header> 
+        </div>  
+        <div class="scroll-container">
+            <div id="1st" class="scroll-area">
+              <div><img src=""></div>
+              <div>
+                <h3>Profile</h3>
+                <p></p>
+              </div>
+            </div>
+            <div id="2nd" class="scroll-area">2</div>
+            <div id="3th" class="scroll-area">
+              <div class="his-font">
+                <p>- 명덕 고등학교  2015 ~ 2017</p>
+                <p>- 중앙대학교 산업보안학과  2019 ~ </p>
+              </div>
+            </div>
+            <div id="4th" class="scroll-area">
+              <div class="img-style"><img class="img-size" src="contact_img/e-mail.png"></div>
+              <div class="text-style"><a href="mailto:hc1489@naver.com" class="a-style">E-mail</a></div>
+              <div class="img-style"><img class="img-size" src="contact_img/github.png"></div>
+              <div class="text-style"><a href="https://github.com/yangchef1" class="a-style">Github</a></div>
+              <div class="img-style"><img class="img-size" src="contact_img/instagram.png"></div>
+              <div class="text-style"><a href="https://www.instagram.com/f_valenti_/" class="a-style">Instagram</a></div>
+            </div>
+            <div id="5th" class="scroll-area">
+                <div class="container">
+                    <div class="my-calendar clearfix">
+                      <div class="clicked-date">
+                        <div class="cal-day"></div>
+                        <div class="cal-date"></div>
+                        <div class="sch-contents"></div>
+                      </div>
+                      <div class="calendar-box">
+                        <div class="ctr-box clearfix">
+                          <button type="button" title="prev" class="btn-cal prev">
+                          </button>
+                          <span class="cal-month"></span>
+                          <span class="cal-year"></span>
+                          <button type="button" title="next" class="btn-cal next">
+                          </button>
+                        </div>
+                        <table class="cal-table">
+                          <thead>
+                            <tr>
+                              <th>S</th>
+                              <th>M</th>
+                              <th>T</th>
+                              <th>W</th>
+                              <th>T</th>
+                              <th>F</th>
+                              <th>S</th>
+                            </tr>
+                          </thead>
+                          <tbody class="cal-body"></tbody>
+                        </table>
+                    </div>
+                  </div>
+            </div>
+        <script src="menu.js"></script>
+        <script src="schedule.js"></script>   
+    </body>
+</html>

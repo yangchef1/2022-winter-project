@@ -1,0 +1,59 @@
+body {
+    overflow: hidden;
+}
+
+.scroll-container {
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+   
+.scroll-area {
+    scroll-snap-align: start;
+}
+
+html {
+  background: #f2f2f2;
+}
+ 
+.scroll-container,
+.scroll-area {
+  width: 101%;
+  height: 100vh;
+  font-size: 60px;
+}
+ 
+.scroll-container,
+.scroll-area {
+  margin: 0 auto;
+}
+ 
+.scroll-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+ 
+.scroll-area:nth-of-type(1) {
+  background: #ddf6ff;
+}
+ 
+.scroll-area:nth-of-type(2) {
+  background: #f6ddf6;
+}
+ 
+.scroll-area:nth-of-type(3) {
+  background: #ffddf6;
+}
+ 
+.scroll-area:nth-of-type(4) {
+  background: #ffffdd;
+}
+
+.scroll-area:nth-of-type(5) {
+  background: #ddf6dd;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
