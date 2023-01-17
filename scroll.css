@@ -29,29 +29,26 @@ html {
  
 .scroll-area {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center;  
   color: white;
+  background: #bbc3dd;
 }
  
 .scroll-area:nth-of-type(1) {
-  background: #ddf6ff;
+  background: #bbc3dd;
+  justify-content: center;
 }
  
 .scroll-area:nth-of-type(2) {
-  background: #f6ddf6;
+  justify-content: right;
 }
  
 .scroll-area:nth-of-type(3) {
-  background: #ffddf6;
-}
- 
-.scroll-area:nth-of-type(4) {
-  background: #ffffdd;
+  justify-content: center;
 }
 
-.scroll-area:nth-of-type(5) {
-  background: #ddf6dd;
+.scroll-area:nth-of-type(4) {
+  justify-content: center;
 }
 
 .scroll-container::-webkit-scrollbar {

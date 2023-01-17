@@ -7,7 +7,7 @@
 }
 
 .menu li a {
-    color: rgb(25, 25, 25);
+    color: white;
     text-decoration: none;
     position: flex;
 }
@@ -18,16 +18,20 @@
 
 .menu {
     font-size: 20px;
-    font-style: italic;
+    font-style: normal;
     align-items: center;
     text-align: center;
-    padding-top: 70px;
+    padding-top: 15px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 60px;
 } 
+
+.shadow:not(.not-sdw) {
+    box-shadow: 0px 0px 5px  #444;
+}
 
 .opacity {
   opacity: 0.8;

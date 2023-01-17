@@ -1,4 +1,15 @@
 .his-font {
+    color: white;
+    position: relative;
+    right: 200px;
+    top: -5%;
+}
+
+.year {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.his-content {
     font-size: 20px;
-    color: black;
 }
