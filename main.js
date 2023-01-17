@@ -1,17 +1,17 @@
 let target = document.querySelector("#dynamic");
 const stringArr = ["Welcome to my page!", "Hi, I'm Hee Chul"];
 
+function blink() {
+    target.classList.toggle("active");
+}
+setInterval(blink, 500)
+
 function randomStr() {
     let selectedStr = stringArr[Math.floor(Math.random() * stringArr.length)];
     let arr = selectedStr.split("");
 
     return arr;
 }
-
-function blink() {
-    target.classList.toggle("active");
-}
-setInterval(blink, 500)
 
 function resetTyping(){
     target.textContent = "";
