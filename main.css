@@ -2,7 +2,6 @@
     display: inline;
 }
 
-/* 블링크 */
 #dynamic {
     position: relative;
     top: -10%;
@@ -28,7 +27,6 @@
     display: none;
 }
 
-/* 스크롤 다운 유도 */
 .scr-down {    
     position: relative;
     align-items: center;

@@ -6,13 +6,13 @@ function mouseOut(event) {
     const li = event.target;
     li.classList.add("opacity");
     li.classList.remove("strong");
-};
+}
 
 function mouseOver(event) {
     const li = event.target;
     li.classList.remove("opacity");
     li.classList.add("strong");
-};
+}
 
 function shadowOn() {
     nav.classList.add("shadow");    
