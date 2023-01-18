@@ -12,8 +12,8 @@ body {
 }
 
 .scroll-container,
-.scroll-area {
-  width: 101%;
+.scroll-area {  
+  width: 100vw;
   height: 100vh;
   font-size: 60px;
 }

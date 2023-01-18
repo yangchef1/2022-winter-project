@@ -1,6 +1,11 @@
+.inline {
+    display: inline;
+}
+
+/* 블링크 */
 #dynamic {
     position: relative;
-    top: -5%;
+    top: -10%;
     display: inline-block;
     color: white;
     font-style: normal;
@@ -21,4 +26,38 @@
 
 #dynamic.active::after {
     display: none;
+}
+
+/* 스크롤 다운 유도 */
+.scr-down {    
+    position: relative;
+    align-items: center;
+    top: 50px;
+}
+.scr-down-span {
+  position: absolute;   
+  top: 300px;
+  left: 50%;
+  width: 23px;
+  height: 23px;
+  margin-left: -12px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-45deg);
+  animation: scr-down 1.5s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes scr-down {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
 }

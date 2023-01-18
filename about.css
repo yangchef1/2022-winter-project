@@ -11,6 +11,10 @@
     right: 300px;
 }
 
+.shdw {
+    box-shadow: 0px 0px 5px #444;
+}
+
 .intro {
     position: relative;
     top: 30px;
