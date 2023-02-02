@@ -1,29 +1,23 @@
 body {
     overflow: hidden;
+    margin: 0;
 }
 
 .scroll-container {
     overflow: auto;
     scroll-snap-type: y mandatory;
 }
-   
-.scroll-area {
-    scroll-snap-align: start;
-}
 
 .scroll-container,
 .scroll-area {  
+  font-size: 60px;
   width: 100vw;
   height: 100vh;
-  font-size: 60px;
-}
- 
-.scroll-container,
-.scroll-area {
   margin: 0 auto;
 }
  
 .scroll-area {
+  scroll-snap-align: start;
   display: flex;
   align-items: center;  
   color: white;
